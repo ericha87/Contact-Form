@@ -4,8 +4,7 @@
         $email = $_POST['email'];
 		$message = $_POST['message'];
 		$from = 'User'; 
-		//$to = 'eric_ha@outlook.com';            //you must change email address to specified mail address you need
-		$to = 'paul.schell@gmx.net';            //you must change email address to specified mail address you need
+		$to = 'eric_ha@outlook.com';            //you must change email address to specified mail address you need
         $subject = 'Message from User ';
 		
 		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
