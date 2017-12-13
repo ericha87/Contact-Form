@@ -1,7 +1,7 @@
 <?php
 	if (isset($_POST["submit"])) {
 		$name = $_POST['budget'];
-        $email = $_POST['email'];
+        	$email = $_POST['email'];
 		$message = $_POST['message'];
 		$from = 'User'; 
 		$to = 'eric_ha@outlook.com';            //you must change email address to specified mail address you need
